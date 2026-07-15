@@ -277,10 +277,18 @@ input, textarea, button {
   font-family: var(--font-title);
 }
 
+.hello-text {
+  font-family: var(--font-title);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
 .hero-title {
   font-family: var(--font-title);
   font-weight: 800;
-  font-size: 3.5rem;
+  font-size: 48px;
   line-height: 1.15;
   color: var(--text-main);
   margin-bottom: 20px;
@@ -294,7 +302,7 @@ input, textarea, button {
 }
 
 .hero-description {
-  font-size: 1.125rem;
+  font-size: 16px;
   color: var(--text-muted);
   margin-bottom: 40px;
   max-width: 520px;
@@ -495,6 +503,7 @@ input, textarea, button {
   gap: 12px;
   text-align: center;
   padding: 40px;
+  height: 100%;
 }
 
 .coming-soon-plus {
@@ -1544,6 +1553,7 @@ input, textarea, button {
   }
 
   .hello-text {
+    font-size: 24px;
     text-align: center;
   }
 
@@ -1770,11 +1780,6 @@ input, textarea, button {
 
   .project-coming-soon {
     height: 260px !important;
-  }
-
-  /* Mockup overlay shown by default on touch */
-  .mockup-hover-overlay {
-    opacity: 1;
   }
 
   .mockup-hover-title {

@@ -29,8 +29,7 @@
       <nav class="nav-menu">
         <a href="#hero" class="nav-link">Home</a>
         <a href="#about" class="nav-link" onclick="openAboutModal(); return false;">About</a>
-        <a href="#" class="btn btn-nav"
-          onclick="showToast('Resume PDF will be downloadable soon!'); return false;">Resume</a>
+        <a href="Prakash_Balayar_Resume.pdf" target="_blank" class="btn btn-nav">Resume</a>
       </nav>
       <button class="mobile-toggle" aria-label="Toggle menu">
         <span></span>
@@ -51,9 +50,7 @@
             Product Designer
           </h1>
           <p class="hero-description">
-            I turn wild C-suite dreams into buttons millions of people actually want to click. For past 1+ years, I've
-            been untangling chaotic P2P ecosystems, wrangling 0&rarr;1 launches, and using mindful design to make
-            complex tech feel like a walk in the park.
+            I translate big business ideas into user-friendly digital products. For the past year, I’ve specialized in designing peer-to-peer platforms, building new apps from the ground up, and simplifying complex tech for everyday users.
           </p>
           <div class="hero-actions">
             <a href="#work" class="btn btn-outline">
@@ -115,7 +112,13 @@
         </div>
 
         <!-- Card 2: Marching ants animated dashed border only -->
-        <div class="project-coming-soon" onclick="showToast('More projects coming soon! 💻')"></div>
+        <div class="project-coming-soon" onclick="showToast('More projects coming soon! 💻')">
+          <div class="coming-soon-inner">
+            <span class="coming-soon-plus">+</span>
+            <h4 class="coming-soon-label">Coming Soon</h4>
+            <span class="coming-soon-sub">Next Project</span>
+          </div>
+        </div>
 
       </div>
     </section>
