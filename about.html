@@ -177,6 +177,11 @@
     }
     .cert-item {
       display: flex; gap: 14px; align-items: flex-start;
+      text-decoration: none;
+      transition: transform var(--transition-fast);
+    }
+    .cert-item:hover {
+      transform: translateX(4px);
     }
     .cert-icon {
       width: 36px; height: 36px; min-width: 36px;
@@ -427,19 +432,32 @@
 
             <hr class="glance-divider">
 
-            <span class="glance-cert-title">Certification</span>
+            <span class="glance-cert-title">Certifications</span>
             <div class="glance-list">
 
-              <div class="cert-item">
+              <!-- Cert 1: Portfolio Website Essentials -->
+              <a href="prakash-balayar-portfolio-website-essentials-2026.png" target="_blank" class="cert-item">
                 <div class="cert-icon">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
                 </div>
                 <div class="cert-body">
-                  <div class="cert-name">Certificate of Participation</div>
-                  <div class="cert-issuer">Add event / course name here</div>
-                  <div class="cert-date">2024</div>
+                  <div class="cert-name">Portfolio Website Essentials</div>
+                  <div class="cert-issuer">CSIT Association of Nepal</div>
+                  <div class="cert-date">2026 · Click to view ↗</div>
                 </div>
-              </div>
+              </a>
+
+              <!-- Cert 2: Cybersecurity 101 -->
+              <a href="prakash-balayar-cybersecurity-101.png" target="_blank" class="cert-item">
+                <div class="cert-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+                </div>
+                <div class="cert-body">
+                  <div class="cert-name">Lakshyarambha Cybersecurity 101</div>
+                  <div class="cert-issuer">CSIT Association of Nepal</div>
+                  <div class="cert-date">July 11, 2026 · Click to view ↗</div>
+                </div>
+              </a>
 
             </div>
           </div>
