@@ -2371,18 +2371,18 @@ input, textarea, button {
   transform: translateX(-50%);
   z-index: 6;
   pointer-events: none;
-  display: flex;
+  display: inline-flex;
+  justify-content: center;
   align-items: center;
-  gap: 0;
   animation: floatCursor 4s ease-in-out infinite alternate;
 }
 
 .cursor-arrow {
-  flex-shrink: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -30%);
   filter: drop-shadow(0 2px 6px rgba(0,0,0,0.25));
-  margin-right: -2px;
-  position: relative;
-  top: -4px;
   z-index: 2;
 }
 
