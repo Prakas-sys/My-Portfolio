@@ -2367,7 +2367,7 @@ input, textarea, button {
 .hero-custom-cursor {
   position: absolute;
   bottom: 32px;
-  left: 50%;
+  left: 70%;
   transform: translateX(-50%);
   z-index: 6;
   pointer-events: none;
