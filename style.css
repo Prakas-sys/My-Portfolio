@@ -794,6 +794,66 @@ input, textarea, button {
   background: rgba(255, 255, 255, 0.1);
 }
 
+/* Quote / Philosophy Band */
+.quote-band {
+  background-color: var(--bg-dark);
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.quote-band::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(143, 91, 255, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.quote-mark {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 8rem;
+  line-height: 0.6;
+  color: var(--primary);
+  opacity: 0.35;
+  margin-bottom: 16px;
+  display: block;
+  user-select: none;
+}
+
+.quote-text {
+  font-family: var(--font-title);
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-white);
+  line-height: 1.5;
+  max-width: 760px;
+  margin: 0 auto 24px;
+  font-style: italic;
+  letter-spacing: -0.3px;
+}
+
+.quote-author {
+  font-family: var(--font-title);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--primary);
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
 /* Testimonial Section */
 .testimonials-section {
   padding: 100px 0;
@@ -1642,6 +1702,20 @@ input, textarea, button {
 
   .project-coming-soon {
     height: 200px;
+  }
+
+  /* --- Quote Band --- */
+  .quote-band {
+    padding: 60px 0;
+  }
+
+  .quote-mark {
+    font-size: 5rem;
+  }
+
+  .quote-text {
+    font-size: 1.2rem;
+    line-height: 1.55;
   }
 
   /* --- Footer --- */
