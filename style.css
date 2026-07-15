@@ -1078,7 +1078,9 @@ input, textarea, button {
 .contact-form-panel {
   padding: 60px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #contactForm {
@@ -1527,8 +1529,8 @@ input, textarea, button {
 
   /* --- Hero: stack image on top, text below --- */
   .hero-section {
-    padding: 80px 0 48px;
-    overflow: hidden;
+    padding: 80px 0 60px;
+    overflow: visible;
   }
 
   .hero-container {
@@ -1559,11 +1561,12 @@ input, textarea, button {
 
   .hero-description {
     font-size: 0.95rem;
-    line-height: 1.65;
+    line-height: 1.7;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;
+    max-width: 340px;
     text-align: center;
+    padding: 0 4px;
   }
 
   .hero-actions {
@@ -1793,6 +1796,14 @@ input, textarea, button {
 
   .contact-form-panel {
     padding: 28px 20px;
+    overflow: visible;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .btn-submit {
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .input-label {
