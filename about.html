@@ -259,23 +259,33 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 50px;
-      height: 50px;
+      width: 54px;
+      height: 54px;
       padding: 0;
-      border-radius: 12px;
+      border-radius: 14px;
     }
     .skill-tag-with-icon svg,
     .tool-logo-img {
       flex-shrink: 0;
     }
     .tool-logo-img {
-      height: 30px;
-      width: 30px;
       object-fit: contain;
+    }
+    .tool-logo-img.figma-logo {
+      height: 34px;
+      width: 34px;
     }
     .tool-logo-img.notion-logo {
       height: 22px;
       width: 22px;
+    }
+    .tool-logo-img.excel-logo {
+      height: 38px;
+      width: 38px;
+    }
+    .tool-logo-img.antigravity-logo {
+      height: 38px;
+      width: 38px;
     }
 
     /* ── Section label/heading ── */
@@ -496,20 +506,20 @@
             <h4>Tools</h4>
             <div class="skill-tags">
               <!-- Figma tag -->
-              <span class="skill-tag skill-tag-with-icon" title="Figma" style="border-radius: 12px;">
-                <img src="figma%20logo.webp" alt="Figma" class="tool-logo-img">
+              <span class="skill-tag skill-tag-with-icon" title="Figma">
+                <img src="figma%20logo.webp" alt="Figma" class="tool-logo-img figma-logo">
               </span>
               <!-- Notion tag -->
-              <span class="skill-tag skill-tag-with-icon" title="Notion" style="border-radius: 12px;">
+              <span class="skill-tag skill-tag-with-icon" title="Notion">
                 <img src="Notion_app_logo.png" alt="Notion" class="tool-logo-img notion-logo">
               </span>
               <!-- Excel tag -->
-              <span class="skill-tag skill-tag-with-icon" title="Excel" style="border-radius: 12px;">
-                <img src="Microsoft_Excel-Logo.wine.svg" alt="Excel" class="tool-logo-img">
+              <span class="skill-tag skill-tag-with-icon" title="Excel">
+                <img src="Microsoft_Excel-Logo.wine.svg" alt="Excel" class="tool-logo-img excel-logo">
               </span>
               <!-- Antigravity tag -->
-              <span class="skill-tag skill-tag-with-icon" style="border-color: var(--primary-light); background: rgba(143, 91, 255, 0.05); border-radius: 12px;" title="Antigravity AI">
-                <img src="antigravity.png" alt="Antigravity AI" class="tool-logo-img">
+              <span class="skill-tag skill-tag-with-icon" style="border-color: var(--primary-light); background: rgba(143, 91, 255, 0.05);" title="Antigravity AI">
+                <img src="antigravity.png" alt="Antigravity AI" class="tool-logo-img antigravity-logo">
               </span>
             </div>
           </div>
